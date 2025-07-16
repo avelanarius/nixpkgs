@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
   version = "0.25.5";
 
   src = fetchFromGitHub {
-    owner = "p11-glue";
+    owner = "avelanarius";
     repo = "p11-kit";
     rev = version;
     hash = "sha256-2xDUvXGsF8x42uezgnvOXLVUdNNHcaE042HDDEJeplc=";
