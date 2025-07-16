@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
     owner = "avelanarius";
     repo = "p11-kit";
     rev = "4c6fcdbd60d79a95b06994e1641966e7cb1a4f0e";
-    hash = "sha256-1zuvYnQAe35ynX5L9A6yWkAOI9LZ1bWR6yOHAey8+yQ=";
+    hash = "sha256-MX51MsCXSzN3yrnpaANvIToj99/VFNNRrRepAxCs1gk=";
     fetchSubmodules = true;
   };
 
