@@ -21,8 +21,8 @@ stdenv.mkDerivation rec {
   src = fetchFromGitHub {
     owner = "avelanarius";
     repo = "p11-kit";
-    rev = version;
-    hash = "sha256-6zuvYnQAe27ynX5L9A6yWkAOI9LZ1bWR6yOHAey8+yQ=";
+    rev = "4c6fcdbd60d79a95b06994e1641966e7cb1a4f0e";
+    hash = "sha256-1zuvYnQAe35ynX5L9A6yWkAOI9LZ1bWR6yOHAey8+yQ=";
     fetchSubmodules = true;
   };
 
