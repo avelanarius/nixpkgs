@@ -63,6 +63,7 @@ stdenv.mkDerivation rec {
         "/etc/pki/tls/certs/ca-bundle.crt" # Fedora/CentOS
         "/var/lib/ca-certificates/ca-bundle.pem" # openSUSE
         "/etc/ssl/cert.pem" # Darwin/macOS
+        "testing"
       ]
     ))
   ];
